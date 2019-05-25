@@ -2,11 +2,12 @@
 //  ZTViewController.m
 //  ZTTextField
 //
-//  Created by hfzdeyx@163.com on 05/25/2019.
-//  Copyright (c) 2019 hfzdeyx@163.com. All rights reserved.
+//  Created by zttina on 05/25/2019.
+//  Copyright (c) 2019 zttina. All rights reserved.
 //
 
 #import "ZTViewController.h"
+#import "ZTTextFieldsView.h"
 
 @interface ZTViewController ()
 
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    //外部调用
+    ZTTextFieldsView *view = [[ZTTextFieldsView alloc] initWithFrame:CGRectMake(100, 100, 100, 50)
+                                                           withColor:[UIColor redColor]];
+    [self.view addSubview:view];
+    
 }
 
 - (void)didReceiveMemoryWarning

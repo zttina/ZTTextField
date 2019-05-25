@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2811CD63CF4E97953C8DEF8247C07CC2 /* Pods-ZTTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F45EFB63CA6296E6A4D3437C7AD214 /* Pods-ZTTextField_Tests-dummy.m */; };
+		2DDC73EF69E8742C60F3929032D522B4 /* Pods-ZTTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A5CC227CA511E15F11916B6DA8A445 /* Pods-ZTTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		510C0C437329F95DBCA86907535BA271 /* ZTTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D9FB195780289A4754280A2DB9BA63 /* ZTTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B1038AB96F50F1BD1ADAF5B96BD5E41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6397EF1CEC7CBE9C4F15B290E4DBF5D6 /* ZTTextFieldsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49923C305ACE09529722784D51CF5C3D /* ZTTextFieldsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74E7D5C64E8C03EB44E0F6F78D4B1B43 /* ZTTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CAFE451A18EABE0B29F1360A51718 /* ZTTextField-dummy.m */; };
+		859CE7E939BE089FD7BC2C72D32FB7BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9A42DACA82D37B472F5F184EC5B26588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9ED83932E83AE5EDEA9FCEFAD4790C0B /* ZTTextFieldsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FB7FC7856F8DDE674503339DE516DB /* ZTTextFieldsView.m */; };
+		B37505DDACE92DFFA8673317DFDBDE73 /* Pods-ZTTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4A250F4976E73ED42ACA1894694B04 /* Pods-ZTTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E184C1207DCF72C7289563358CEF50C6 /* Pods-ZTTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD482627010B85FE9C03BBCD72961F4F /* Pods-ZTTextField_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C6A809F0B0E2200F053A7D336219E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B90CDEC51A2C3A3FF6C4F0B24F31DCA;
+			remoteInfo = "Pods-ZTTextField_Example";
+		};
+		F5A51D6D1BC50BE1824885894E5282EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6253E833AB7C81028FAA02BB552EEF6;
+			remoteInfo = ZTTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03005D7CFFB08B314EA44B34194D6145 /* Pods-ZTTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTTextField_Tests-Info.plist"; sourceTree = "<group>"; };
+		09C69B1A6C0E44874D212659CDEBDB5E /* ZTTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZTTextField.framework; path = ZTTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AF80818C679CC9FE505BE78D8AE416 /* Pods_ZTTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZTTextField_Tests.framework; path = "Pods-ZTTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D5564FBA3931455E21FDD7CD4EEBE5 /* ZTTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZTTextField.modulemap; sourceTree = "<group>"; };
+		3F4977926D4C2F881ED44942FC7E6160 /* Pods-ZTTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		49923C305ACE09529722784D51CF5C3D /* ZTTextFieldsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZTTextFieldsView.h; path = ZTTextField/Classes/ZTTextFieldsView.h; sourceTree = "<group>"; };
+		4B241FA067584737C822706FF9351FE4 /* Pods-ZTTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		687567AC85ACFE8CF74F067A7B40AE6F /* Pods-ZTTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		70569982582FD76593AF8690FE29EBDB /* ZTTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZTTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		774605306449C97005EA09A09D2B7925 /* Pods-ZTTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7B4A250F4976E73ED42ACA1894694B04 /* Pods-ZTTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		81FB7FC7856F8DDE674503339DE516DB /* ZTTextFieldsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZTTextFieldsView.m; path = ZTTextField/Classes/ZTTextFieldsView.m; sourceTree = "<group>"; };
+		838CAFE451A18EABE0B29F1360A51718 /* ZTTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTTextField-dummy.m"; sourceTree = "<group>"; };
+		8C5EBEAC4BC4F24E9479BDE9EA2936A1 /* Pods_ZTTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZTTextField_Example.framework; path = "Pods-ZTTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AE897FCCDE03B4B2DE14024FC64DEA /* Pods-ZTTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9662DDA6C252492C32CA36213620B63F /* Pods-ZTTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTTextField_Example-Info.plist"; sourceTree = "<group>"; };
+		978A48094976771C243CA6A640BE33D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABF59750669B8D19D1BC6847DC3D3A7F /* Pods-ZTTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTTextField_Example.modulemap"; sourceTree = "<group>"; };
+		AEE99A4AE4B652EDF2F89EA4BC5796D1 /* ZTTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTTextField.xcconfig; sourceTree = "<group>"; };
+		B6C33BE236D3A3BBC95D8DD42A2F380A /* Pods-ZTTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZTTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B9520B84E5B0C17361F6C20306952AE0 /* Pods-ZTTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		BB2E48B4AD9ACCCFD72AD3418263C27F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9A5CC227CA511E15F11916B6DA8A445 /* Pods-ZTTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DBF75DD622FC9962C536EEDB16BFFBD0 /* ZTTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZTTextField-Info.plist"; sourceTree = "<group>"; };
+		DD482627010B85FE9C03BBCD72961F4F /* Pods-ZTTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		E1D9FB195780289A4754280A2DB9BA63 /* ZTTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTTextField-umbrella.h"; sourceTree = "<group>"; };
+		E24E206ABC2736A0EAC4EE0AE4C53FA9 /* ZTTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTTextField-prefix.pch"; sourceTree = "<group>"; };
+		E6B428528E9570161E5A627ED2CD2D2F /* Pods-ZTTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED6E66A96011F8A3977F9EFD53785956 /* Pods-ZTTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9F45EFB63CA6296E6A4D3437C7AD214 /* Pods-ZTTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB36B20D72E5A8024A0F90B13CEB57E9 /* Pods-ZTTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B229722C091C6368D69A8F472174AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1038AB96F50F1BD1ADAF5B96BD5E41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AD3F19E270D295DDAC47A8C0AE1560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859CE7E939BE089FD7BC2C72D32FB7BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9CC969DD4665ACF999A41019C5CAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A42DACA82D37B472F5F184EC5B26588 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C13C70714FFC55BF62DB9797C6AF9F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30D5564FBA3931455E21FDD7CD4EEBE5 /* ZTTextField.modulemap */,
+				AEE99A4AE4B652EDF2F89EA4BC5796D1 /* ZTTextField.xcconfig */,
+				838CAFE451A18EABE0B29F1360A51718 /* ZTTextField-dummy.m */,
+				DBF75DD622FC9962C536EEDB16BFFBD0 /* ZTTextField-Info.plist */,
+				E24E206ABC2736A0EAC4EE0AE4C53FA9 /* ZTTextField-prefix.pch */,
+				E1D9FB195780289A4754280A2DB9BA63 /* ZTTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZTTextField";
+			sourceTree = "<group>";
+		};
+		4BA4C1E83649CA5FDF77A7AAA3200D0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2B84A22172BF242DD16D366DFAA1C46 /* Pods-ZTTextField_Example */,
+				6AF3684FAA9F6EE599B2481F3CE78542 /* Pods-ZTTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4CBC37BF3C17943838DF5500E2A8F30F /* ZTTextField */ = {
+			isa = PBXGroup;
+			children = (
+				49923C305ACE09529722784D51CF5C3D /* ZTTextFieldsView.h */,
+				81FB7FC7856F8DDE674503339DE516DB /* ZTTextFieldsView.m */,
+				7EC2CF0F658860EA1986B810637F147F /* Pod */,
+				3C13C70714FFC55BF62DB9797C6AF9F3 /* Support Files */,
+			);
+			name = ZTTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6AF3684FAA9F6EE599B2481F3CE78542 /* Pods-ZTTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9520B84E5B0C17361F6C20306952AE0 /* Pods-ZTTextField_Tests.modulemap */,
+				92AE897FCCDE03B4B2DE14024FC64DEA /* Pods-ZTTextField_Tests-acknowledgements.markdown */,
+				4B241FA067584737C822706FF9351FE4 /* Pods-ZTTextField_Tests-acknowledgements.plist */,
+				F9F45EFB63CA6296E6A4D3437C7AD214 /* Pods-ZTTextField_Tests-dummy.m */,
+				03005D7CFFB08B314EA44B34194D6145 /* Pods-ZTTextField_Tests-Info.plist */,
+				D9A5CC227CA511E15F11916B6DA8A445 /* Pods-ZTTextField_Tests-umbrella.h */,
+				3F4977926D4C2F881ED44942FC7E6160 /* Pods-ZTTextField_Tests.debug.xcconfig */,
+				FB36B20D72E5A8024A0F90B13CEB57E9 /* Pods-ZTTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZTTextField_Tests";
+			path = "Target Support Files/Pods-ZTTextField_Tests";
+			sourceTree = "<group>";
+		};
+		7EC2CF0F658860EA1986B810637F147F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E48B4AD9ACCCFD72AD3418263C27F /* LICENSE */,
+				978A48094976771C243CA6A640BE33D8 /* README.md */,
+				70569982582FD76593AF8690FE29EBDB /* ZTTextField.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8A2C33D9E01E9B093F54D5AC2D13D679 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC37BF3C17943838DF5500E2A8F30F /* ZTTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A84AFDA32FCFB453CCFB2D1B98C3F3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EBEAC4BC4F24E9479BDE9EA2936A1 /* Pods_ZTTextField_Example.framework */,
+				19AF80818C679CC9FE505BE78D8AE416 /* Pods_ZTTextField_Tests.framework */,
+				09C69B1A6C0E44874D212659CDEBDB5E /* ZTTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2B84A22172BF242DD16D366DFAA1C46 /* Pods-ZTTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ABF59750669B8D19D1BC6847DC3D3A7F /* Pods-ZTTextField_Example.modulemap */,
+				E6B428528E9570161E5A627ED2CD2D2F /* Pods-ZTTextField_Example-acknowledgements.markdown */,
+				ED6E66A96011F8A3977F9EFD53785956 /* Pods-ZTTextField_Example-acknowledgements.plist */,
+				DD482627010B85FE9C03BBCD72961F4F /* Pods-ZTTextField_Example-dummy.m */,
+				B6C33BE236D3A3BBC95D8DD42A2F380A /* Pods-ZTTextField_Example-frameworks.sh */,
+				9662DDA6C252492C32CA36213620B63F /* Pods-ZTTextField_Example-Info.plist */,
+				7B4A250F4976E73ED42ACA1894694B04 /* Pods-ZTTextField_Example-umbrella.h */,
+				687567AC85ACFE8CF74F067A7B40AE6F /* Pods-ZTTextField_Example.debug.xcconfig */,
+				774605306449C97005EA09A09D2B7925 /* Pods-ZTTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-ZTTextField_Example";
+			path = "Target Support Files/Pods-ZTTextField_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8A2C33D9E01E9B093F54D5AC2D13D679 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A84AFDA32FCFB453CCFB2D1B98C3F3B4 /* Products */,
+				4BA4C1E83649CA5FDF77A7AAA3200D0B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BD6C5A6C299C49B639D35DA46E29CFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37505DDACE92DFFA8673317DFDBDE73 /* Pods-ZTTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9A6225B4354714CE8035ADECD8B895 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDC73EF69E8742C60F3929032D522B4 /* Pods-ZTTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1440873F8AE7AF154792C58EB623566 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510C0C437329F95DBCA86907535BA271 /* ZTTextField-umbrella.h in Headers */,
+				6397EF1CEC7CBE9C4F15B290E4DBF5D6 /* ZTTextFieldsView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B90CDEC51A2C3A3FF6C4F0B24F31DCA /* Pods-ZTTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F46BE916A83F3A99B14170B13FCE584 /* Build configuration list for PBXNativeTarget "Pods-ZTTextField_Example" */;
+			buildPhases = (
+				3BD6C5A6C299C49B639D35DA46E29CFE /* Headers */,
+				67FE00A4B3C1CD73960DF579E3BFA9ED /* Sources */,
+				AE9CC969DD4665ACF999A41019C5CAB9 /* Frameworks */,
+				539F8F91822A9C1DEE52ECD2B1883A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B2092479EFFBA081E2147AA66A04C41 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZTTextField_Example";
+			productName = "Pods-ZTTextField_Example";
+			productReference = 8C5EBEAC4BC4F24E9479BDE9EA2936A1 /* Pods_ZTTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A207506F14B38B27A5DCAB5351EDE951 /* Pods-ZTTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A20A038C86F6A0B9C47B925FD9F062C /* Build configuration list for PBXNativeTarget "Pods-ZTTextField_Tests" */;
+			buildPhases = (
+				8E9A6225B4354714CE8035ADECD8B895 /* Headers */,
+				4D1494AF6A526D6DA8DE7F2E91B0BD35 /* Sources */,
+				43AD3F19E270D295DDAC47A8C0AE1560 /* Frameworks */,
+				9AB4967082878373D08A323A03E223A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FA043A9FBEA8F7228C311CEFBE7E2B /* PBXTargetDependency */,
+			);
+			name = "Pods-ZTTextField_Tests";
+			productName = "Pods-ZTTextField_Tests";
+			productReference = 19AF80818C679CC9FE505BE78D8AE416 /* Pods_ZTTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6253E833AB7C81028FAA02BB552EEF6 /* ZTTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248E47E54FF20853273AAE1FF28DA095 /* Build configuration list for PBXNativeTarget "ZTTextField" */;
+			buildPhases = (
+				E1440873F8AE7AF154792C58EB623566 /* Headers */,
+				4E7ACE5D4524D33749FB36F5FBE7AF42 /* Sources */,
+				3B229722C091C6368D69A8F472174AE0 /* Frameworks */,
+				763B6B9FC7B6F9F78772D88B9919632A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTTextField;
+			productName = ZTTextField;
+			productReference = 09C69B1A6C0E44874D212659CDEBDB5E /* ZTTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A84AFDA32FCFB453CCFB2D1B98C3F3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B90CDEC51A2C3A3FF6C4F0B24F31DCA /* Pods-ZTTextField_Example */,
+				A207506F14B38B27A5DCAB5351EDE951 /* Pods-ZTTextField_Tests */,
+				D6253E833AB7C81028FAA02BB552EEF6 /* ZTTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		539F8F91822A9C1DEE52ECD2B1883A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763B6B9FC7B6F9F78772D88B9919632A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB4967082878373D08A323A03E223A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D1494AF6A526D6DA8DE7F2E91B0BD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2811CD63CF4E97953C8DEF8247C07CC2 /* Pods-ZTTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7ACE5D4524D33749FB36F5FBE7AF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E7D5C64E8C03EB44E0F6F78D4B1B43 /* ZTTextField-dummy.m in Sources */,
+				9ED83932E83AE5EDEA9FCEFAD4790C0B /* ZTTextFieldsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FE00A4B3C1CD73960DF579E3BFA9ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E184C1207DCF72C7289563358CEF50C6 /* Pods-ZTTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B2092479EFFBA081E2147AA66A04C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZTTextField;
+			target = D6253E833AB7C81028FAA02BB552EEF6 /* ZTTextField */;
+			targetProxy = F5A51D6D1BC50BE1824885894E5282EF /* PBXContainerItemProxy */;
+		};
+		D3FA043A9FBEA8F7228C311CEFBE7E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZTTextField_Example";
+			target = 4B90CDEC51A2C3A3FF6C4F0B24F31DCA /* Pods-ZTTextField_Example */;
+			targetProxy = 05C6A809F0B0E2200F053A7D336219E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2292416BB6611498E847EF629EF3FD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774605306449C97005EA09A09D2B7925 /* Pods-ZTTextField_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTTextField_Example/Pods-ZTTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTTextField_Example/Pods-ZTTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31335D807498DA3E5E47377D571CA4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4977926D4C2F881ED44942FC7E6160 /* Pods-ZTTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTTextField_Tests/Pods-ZTTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTTextField_Tests/Pods-ZTTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CD50A081E08C245F980E58A3BC6855E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE99A4AE4B652EDF2F89EA4BC5796D1 /* ZTTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTTextField/ZTTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZTTextField/ZTTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZTTextField/ZTTextField.modulemap";
+				PRODUCT_MODULE_NAME = ZTTextField;
+				PRODUCT_NAME = ZTTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80948942F2D4712007EC6F8820839711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 687567AC85ACFE8CF74F067A7B40AE6F /* Pods-ZTTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTTextField_Example/Pods-ZTTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTTextField_Example/Pods-ZTTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E45141AB83D9829974FE630635E3D073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE99A4AE4B652EDF2F89EA4BC5796D1 /* ZTTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTTextField/ZTTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZTTextField/ZTTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZTTextField/ZTTextField.modulemap";
+				PRODUCT_MODULE_NAME = ZTTextField;
+				PRODUCT_NAME = ZTTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB1FFCCDA2DE8E9A0BA0ADAD5ECA824A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB36B20D72E5A8024A0F90B13CEB57E9 /* Pods-ZTTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTTextField_Tests/Pods-ZTTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTTextField_Tests/Pods-ZTTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248E47E54FF20853273AAE1FF28DA095 /* Build configuration list for PBXNativeTarget "ZTTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD50A081E08C245F980E58A3BC6855E /* Debug */,
+				E45141AB83D9829974FE630635E3D073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A20A038C86F6A0B9C47B925FD9F062C /* Build configuration list for PBXNativeTarget "Pods-ZTTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31335D807498DA3E5E47377D571CA4C0 /* Debug */,
+				EB1FFCCDA2DE8E9A0BA0ADAD5ECA824A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F46BE916A83F3A99B14170B13FCE584 /* Build configuration list for PBXNativeTarget "Pods-ZTTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80948942F2D4712007EC6F8820839711 /* Debug */,
+				2292416BB6611498E847EF629EF3FD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

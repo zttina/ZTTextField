@@ -1,6 +1,6 @@
 # ZTTextField
 
-[![CI Status](https://img.shields.io/travis/hfzdeyx@163.com/ZTTextField.svg?style=flat)](https://travis-ci.org/hfzdeyx@163.com/ZTTextField)
+[![CI Status](https://img.shields.io/travis/zttina/ZTTextField.svg?style=flat)](https://travis-ci.org/zttina/ZTTextField)
 [![Version](https://img.shields.io/cocoapods/v/ZTTextField.svg?style=flat)](https://cocoapods.org/pods/ZTTextField)
 [![License](https://img.shields.io/cocoapods/l/ZTTextField.svg?style=flat)](https://cocoapods.org/pods/ZTTextField)
 [![Platform](https://img.shields.io/cocoapods/p/ZTTextField.svg?style=flat)](https://cocoapods.org/pods/ZTTextField)
@@ -22,7 +22,7 @@ pod 'ZTTextField'
 
 ## Author
 
-hfzdeyx@163.com, 351199191@qq.com
+zttina, 351199191@qq.com
 
 ## License
 

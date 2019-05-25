@@ -1,0 +1,16 @@
+PODS:
+  - ZTTextField (0.1.0)
+
+DEPENDENCIES:
+  - ZTTextField (from `../`)
+
+EXTERNAL SOURCES:
+  ZTTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTTextField: 04a87d10e4660ec7cc79670df6dc8a29617fd1d1
+
+PODFILE CHECKSUM: 65b43ac75dccda8d9eef06a978ef85936e0ea3c9
+
+COCOAPODS: 1.6.1

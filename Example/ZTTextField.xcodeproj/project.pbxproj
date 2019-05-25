@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0EB8F364760D5BBD3226BD51 /* Pods_ZTTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40B0A759145C959E439BCD20 /* ZTTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZTTextField.podspec; path = ../ZTTextField.podspec; sourceTree = "<group>"; };
-		4FBCC1E150485FF78C69B982 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		40B0A759145C959E439BCD20 /* ZTTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZTTextField.podspec; path = ../ZTTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4FBCC1E150485FF78C69B982 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZTTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		875FCB48FC905772D64A3FC9 /* Pods_ZTTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E6EC3C641F969439BAF765 /* Pods-ZTTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTTextField_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZTTextField_Tests/Pods-ZTTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B849ABDC2EBAE61958085311 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B849ABDC2EBAE61958085311 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C220B8BDF069DAA423C5FCC2 /* Pods-ZTTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-ZTTextField_Example/Pods-ZTTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E39086A8A5E19E89FD57A088 /* Pods-ZTTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZTTextField_Tests/Pods-ZTTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEA025FC812FC84A307C91B1 /* Pods-ZTTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZTTextField_Example/Pods-ZTTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				A7E6EC3C641F969439BAF765 /* Pods-ZTTextField_Tests.debug.xcconfig */,
 				E39086A8A5E19E89FD57A088 /* Pods-ZTTextField_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -498,6 +498,7 @@
 			baseConfigurationReference = FEA025FC812FC84A307C91B1 /* Pods-ZTTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTTextField/ZTTextField-Prefix.pch";
 				INFOPLIST_FILE = "ZTTextField/ZTTextField-Info.plist";
@@ -513,6 +514,7 @@
 			baseConfigurationReference = C220B8BDF069DAA423C5FCC2 /* Pods-ZTTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTTextField/ZTTextField-Prefix.pch";
 				INFOPLIST_FILE = "ZTTextField/ZTTextField-Info.plist";
