@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTTextField'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = '多个框样式的输入框'
 
 # This description is used to generate tags and improve search results.
