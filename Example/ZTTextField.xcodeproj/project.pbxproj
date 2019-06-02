@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "hfzdeyx@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JESGP9ZHX2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -498,7 +501,7 @@
 			baseConfigurationReference = FEA025FC812FC84A307C91B1 /* Pods-ZTTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JESGP9ZHX2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTTextField/ZTTextField-Prefix.pch";
 				INFOPLIST_FILE = "ZTTextField/ZTTextField-Info.plist";
@@ -514,7 +517,7 @@
 			baseConfigurationReference = C220B8BDF069DAA423C5FCC2 /* Pods-ZTTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JESGP9ZHX2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZTTextField/ZTTextField-Prefix.pch";
 				INFOPLIST_FILE = "ZTTextField/ZTTextField-Info.plist";
